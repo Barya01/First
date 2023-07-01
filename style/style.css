@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-block {
+    height: 725px;
+    background: url(../image/bg_image.png);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+
+}
+
+.phone_image {
+    margin-right: 20px;
+}
+
+.phone_number {
+    color: rgb(255, 255, 255);
+    margin-right: 180px;
+    font-family: Montserrat;
+}
+
+.main-text-selection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 206px;
+    color: white;
+    font-family: Montserrat;
+}
+
+.main_title{
+    font-size: 79px;
+    color: white;
+}
+
+.main_subtitle{
+    color: white;
+    font-size: 27px;
+}
+
+.main_button{
+    margin-top: 32px;
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.about-me-block{
+    height: 725px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title-block{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-info-block{
+    max-width: 1380px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.person-info-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 97px;
+    gap: 40px;
+}
+
+.underline-block{
+    width: 110px;
+    height: 3px;
+    margin-top: 15px;
+}
+
+.underline-black{
+    background-color: black;
+}
+
+.person-info-text{
+    font-size: 25px;
+    font-family: Montserrat;  
+}
+
+.section-title-text{
+    font-size: 28px;
+}
+
+.scillblock{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.underline-white{
+    background-color: white;
+}
+
+.about-me-block3{
+    background-color: #1E2E3D;
+    height: 725px;
+}
+
+.text3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.scill-sub-header{
+    color: white;
+    font-family: Montserrat;
+}
+
+.scills{
+    display: flex;
+    margin-top: 116px;
+    justify-content: space-evenly;
+}
+
+.skill-point{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.about-me-block4{
+    margin-top: 81px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 81px;
+}
+
+.text4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+
+.text4header{
+    font-size: 22px ;
+    margin-bottom: 15px;
+    font-family: Montserrat;
+
+}
+
+.socials{
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 733px)
+{.person-info-block {
+    aling-items: flex-start;
+}}
+
+.person-info-image {
+    max-height: 250px;
+} 
+
+.person-info-text {
+    max-height:250;
+}
